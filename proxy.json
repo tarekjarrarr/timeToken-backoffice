@@ -1,0 +1,17 @@
+{
+    "/oauth/": {
+      "target": "http://localhost:8858/",
+      "secure": false,
+      "changeOrigin": false,
+      "logLevel": "info",
+      "timeout": 20000
+    },
+    "/app/": {
+        "target": "http://localhost:8858/",
+        "secure": false,
+        "changeOrigin": false,
+        "logLevel": "info",
+        "timeout": 20000
+      }
+  }
+  
